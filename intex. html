@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemáticas a Full - Pensando en Pi 🥧</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        
+        body {
+            background: linear-gradient(135deg, #ff3366, #ff6b35, #ffd23f);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .encabezado {
+            background: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 2rem;
+            border: 3px solid #ffd23f;
+        }
+
+        .escuela {
+            color: #ffd23f;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+
+        .seccion {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            border-left: 5px solid #ff3366;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        h2 { color: #ff3366; margin-bottom: 1rem; }
+
+        .dato-pi {
+            background: #fff3cd;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #856404;
+            margin: 1rem 0;
+        }
+
+        .formula {
+            background: #fce4ec;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #c2185b;
+            margin: 1rem 0;
+        }
+
+        .lista { margin-left: 1.2rem; line-height: 1.7; }
+
+        .boton-acceso {
+            display: block;
+            background: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 1.2rem;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 2rem 0;
+            transition: 0.3s;
+        }
+
+        .boton-acceso:hover { background: #b71c1c; transform: scale(1.03); }
+
+        .pie {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            margin-top: 2rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="encabezado">
+        <h1>🥧 Pensando en Pi - Matemáticas a Full</h1>
+        <div class="escuela">🏫 ESCUELA SECUNDARIA N°41 "GUSTAVO CERATI"</div>
+        <p style="margin-top: 1rem;">Proyecto educativo interdisciplinario</p>
+    </div>
+
+    <div class="seccion">
+        <h2>🔢 ¿Qué es π (Pi)?</h2>
+        <p>Es el número que relaciona el perímetro de cualquier círculo con su diámetro. Es un número infinito sin repetición:</p>
+        <div class="dato-pi">π ≈ 3,1415926535...</div>
+    </div>
+
+    <div class="seccion">
+        <h2>📐 Pitágoras y su teorema</h2>
+        <p>En un triángulo rectángulo:</p>
+        <div class="formula">a² + b² = c²</div>
+        <p>La suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa.</p>
+    </div>
+
+    <div class="seccion">
+        <h2>🌍 Rotación de la Tierra y Matemáticas</h2>
+        <ul class="lista">
+            <li>La Tierra rota sobre su eje en aproximadamente <strong>24 horas</strong></li>
+            <li>Usa ángulos, velocidades angulares y círculos para calcular posiciones</li>
+            <li>El ángulo de rotación diario es de 360°</li>
+            <li>Gracias a esto tenemos el día, la noche y las zonas horarias</li>
+        </ul>
+    </div>
+
+    <div class="seccion">
+        <h2>👩‍🔬 Mujeres influyentes en Matemáticas</h2>
+        <ul class="lista">
+            <li><strong>Hypatia de Alejandría:</strong> Primera matemática reconocida de la historia</li>
+            <li><strong>Émilie du Châtelet:</strong> Tradujo y desarrolló las ideas de Newton</li>
+            <li><strong>Marie Curie:</strong> Usó matemáticas para sus descubrimientos en física y química</li>
+            <li><strong>Ada Lovelace:</strong> Primera programadora, unió lógica y números</li>
+            <li><strong>Katherine Johnson:</strong> Calculó las rutas espaciales de la NASA</li>
+        </ul>
+    </div>
+
+    <div class="seccion">
+        <h2>🎵 Matemáticas, Música y Movimientos</h2>
+        <p>¡Todo se conecta a través de las <strong>frecuencias</strong>!</p>
+        <ul class="lista">
+            <li>Las notas nacen del <strong>movimiento de vibración</strong>: cuanto más rápido vibra, mayor es su frecuencia y más agudo su sonido</li>
+            <li>Pitágoras vio que al mover o acortar una cuerda, cambia su vibración y su nota: proporciones exactas</li>
+            <li><strong>Frecuencia:</strong> es la cantidad de movimientos/vibraciones que ocurren en 1 segundo → se mide en Hertz (Hz)</li>
+            <li>El ritmo son movimientos organizados en el tiempo: patrones matemáticos que seguimos al tocar o bailar</li>
+            <li>También hay frecuencias en la naturaleza: la rotación de la Tierra, las olas del mar o el latido del corazón son movimientos que se repiten con una frecuencia propia</li>
+        </ul>
+        <p style="margin-top: 0.8rem;"><em>🎼 Como decía Gustavo Cerati: "La música es el lenguaje secreto del alma"... y de las matemáticas.</em></p>
+    </div>
+
+    <!-- 👇 SOLO CAMBIÁ TU_USUARIO POR TU NOMBRE DE CUENTA GITHUB -->
+    <a class="boton-acceso" href="https://TU_USUARIO.github.io/matematicas-a-full/" target="_blank">
+        🔗 Tu enlace directo al proyecto
+    </a>
+
+    <div class="pie">
+        Realizado por: Tu Nombre y Apellido ✨<br>
+        Secundaria 41 - Gustavo Cerati
+    </div>
+
+</body>
+</html>
